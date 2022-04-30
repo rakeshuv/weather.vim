@@ -1,19 +1,18 @@
 # weather
-	shows the current weather
-	```vim
-	:Weather
-	```
+shows the current weather
+```vim
+:Weather
+```
 	
-	you can also map to the key \w
-	```vim
-	nnoremap <leader>w :call Weather()<CR>
-	```
+you can also map to the key \w
+```vim
+nnoremap <leader>w :call Weather()<CR>
+```
 	
 # Dependency
-	it is dependend upon 'curl' command
+it is dependend upon 'curl' command
 	
 ## Installation
-
 For activating the full functionality, this plugin requires either the plugin
 manager or the `.vimrc` to have the following:
 
@@ -27,7 +26,7 @@ usually added by users in their `vimrc` _right after_ the plugin manager load
 section.
 
 ### [Vundle][v]
-
+Using vim-plug for installation https://github.com/junegunn/vim-plug
 ```vim
-Plugin 'rakeshuv/weather.vim'
+Plug 'rakeshuv/weather.vim'
 ```
